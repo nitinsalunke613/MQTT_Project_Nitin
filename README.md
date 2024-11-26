@@ -2,6 +2,7 @@
 This project demonstrates an IoT-like client-server system for real-time MQTT message processing using Python. The client generates random status messages and sends them to a RabbitMQ queue. The server consumes these messages, processes them, and stores the data in MongoDB. Additionally, the server provides a REST API to retrieve status counts based on a time range.
 
 Key Features
+
 Client:
 
 Publishes MQTT messages to RabbitMQ every second.
